@@ -17,7 +17,7 @@ PreviousRow = 0
 GreatestIncrease = 0
 GreatestDecrease = 0
 
-csvpath = os.path.join("Resources", "budget_data.csv")
+csvpath = os.path.join("Resources","budget_data.csv")
 
 with open(csvpath) as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',')
